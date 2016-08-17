@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YouPlus</string>
+    <string name="reqToAdd">I want to add you as a friend</string>
+    <string name="progressProcess">Adding conversation</string>
+</resources>

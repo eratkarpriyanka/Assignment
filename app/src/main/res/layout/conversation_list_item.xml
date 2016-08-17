@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/ivPersonPhoto"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/person"/>
+    
+    <LinearLayout
+        android:id="@+id/llMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/ivPersonPhoto">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name1"
+        android:textStyle="bold"/>
+        
+    <TextView
+        android:id="@+id/tvLastMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="@string/reqToAdd"/>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_alignEnd="@id/llMsg"
+      />
+
+
+
+</RelativeLayout>
